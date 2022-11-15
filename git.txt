@@ -1,0 +1,6 @@
+FEATURE: LOGIN PAGE VALIDATION	
+SCENARIO: Launch Zerodha Application  and verify user name
+When user enters the Username as “DE4567” in the username texbox	
+And the user enters the password as “1234” in the password textbox	
+And clicks on the Login button 	
+Then user is navigated to the Marketwatch page.	
